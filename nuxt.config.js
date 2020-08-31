@@ -1,3 +1,4 @@
+require('dotenv').config();
 
 export default {
   /*
@@ -45,6 +46,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/dotenv',
   ],
   /*
   ** Nuxt.js modules
